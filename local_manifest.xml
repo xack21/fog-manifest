@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+<remote name="fog" fetch="https://github.com/dblenk-project" />
+
+<project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="fog" revision="lineage-20" />
+<project path="vendor/xiaomi/fog" name="vendor_xiaomi/fog" remote="fog" revision="lineage-20" />
+<project path="device/xiaomi/fog-kernel" name="device_xiaomi_fog-kernel" remote="fog" revision="13" />
+<project path="kernel/xiaomi/fog/header" name="kernel_xiaomi_fog_header" remote="fog" revision="lineage-20" />
+<project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="fog" revision="lineage-20" />
+<project path="vendor/fog-common" name="vendor_fog-common" remote="fog" revision="lineage-20" />
+<project path="device/fog-common" name="device_fog-common" remote="fog" revision="lineage-20" />
+<project path="hardware/xiaomi" name="hardware_xiaomi" remote="fog" revision="lineage-20" />
+<project path+"vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="fog" revision="lineage-20" />
+  
+</manifest>
